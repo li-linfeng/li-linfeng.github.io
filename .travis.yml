@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - 10.19.0 # use nodejs v12 LTS
+  - 12 # use nodejs v12 LTS
 cache:
  directories:
     - node_modules # 缓存 node_modules 加快构建速度
